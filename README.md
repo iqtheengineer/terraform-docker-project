@@ -29,13 +29,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/iqtheengineer/gcp-terraform-project">
-    ![image](https://user-images.githubusercontent.com/82541131/154780904-35daa4e1-7fff-4bf6-b0c3-aa1eba380fa6.png)
-  </a>
+ 
 
 
 <h3 align="center">Terraform Deployment - Docker Container with Nginx Web Server</h3>
-
   <p align="center">
     Automating With Terraform
     <br />
@@ -78,11 +75,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Terraform is an open-source infrastructure as code software tool that enables you to safely and predictably create, change, and improve infrastructure. The cloud computing tool assists in building, modifying, and versioning infrastructure in a secure and efficient manner.
 
-In this project I crafted a Terraform file to automate the process of creating a Docker container that runs a Nginx web server image. The benefits of using   
+In this project I crafted a Terraform file to automate the process of creating a Docker container that runs a Nginx web server image.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -104,10 +100,11 @@ In this project I crafted a Terraform file to automate the process of creating a
 ## Getting Started
 These are instructions for Windows Users. To gather instruction for other OS please visit https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
 
-WINDOWS - To get started you would want to make sure you have the following utlities installed:
-Terraform
-Docker
-WSL2
+WINDOWS - To get started you would want to make sure you have the following utlities installed: <br><br>
+
+- Terraform
+- Docker
+- WSL2
 
 
 
