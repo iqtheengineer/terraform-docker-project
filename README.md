@@ -31,7 +31,7 @@
 <div align="center">
  
 <br>
- <img src = "readmepics/terraform.png" width = 300>
+ <img src = "readmepics/terraform-docker.jpg" width = 500>
 
 <h3 align="center">Terraform Deployment - Docker Container with Nginx Web Server</h3>
   <p align="center">
@@ -99,7 +99,7 @@ In this project I crafted a Terraform file to automate the process of creating a
 
 <!-- GETTING STARTED -->
 ## Getting Started
-These are instructions for Windows Users. To gather instruction for other OS please visit https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
+These are instructions for Windows Users. To gather instruction for other OS please visit: https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
 
 WINDOWS - To get started you would want to make sure you have the following utlities installed: <br><br>
 
@@ -111,16 +111,16 @@ WINDOWS - To get started you would want to make sure you have the following utli
 
 ### Steps
 
-Create a directory named learn-terraform-docker-container.
-* 
+Create a directory named learn-terraform-docker-container:
+ 
   ```
   mkdir learn-terraform-docker-container
   ```
-Then navigate into it.
+Then navigate into it:
   ```
   cd learn-terraform-docker-container
   ```
-Paste the following Terraform configuration into a file and name it main.tf
+Paste the following Terraform configuration into a file and name it main.tf:
 
   ```
   terraform {
@@ -151,18 +151,18 @@ resource "docker_container" "nginx" {
 
   ```
 
-Then initialize the project.
+Then initialize the project:
   ```
   terraform init
   ```
-And finally provision and push the configuration.
+And finally provision and push the configuration:
   ```
   terraform apply
   ```
 
-If all goes well you should see the Nginx container running of localhost:800 or by running docker ps.
+If all goes well you should see the Nginx container running of localhost:800 or by running docker ps:
 
-After that is done, be sure to stop the container and destroy the Nginx webserver.
+After that is done, be sure to stop the container and destroy the Nginx webserver:
    ```
   terraform destroy
   ```
