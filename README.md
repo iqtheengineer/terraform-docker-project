@@ -101,7 +101,7 @@ In this project I crafted a Terraform file to automate the process of creating a
 ## Getting Started
 These are instructions for Windows Users. To gather instruction for other OS please visit: https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/gcp-get-started
 
-WINDOWS - To get started you would want to make sure you have the following utlities installed: <br><br>
+To get started you would want to make sure you have the following utlities installed: <br><br>
 
 - Terraform
 - Docker
