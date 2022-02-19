@@ -31,7 +31,7 @@
 <div align="center">
  
 <br>
- <img src = "readmepics/terraform-docker.jpg" width = 500>
+ <img src = "readmepics/terraform.png" width = 300>
 
 <h3 align="center">Terraform Deployment - Docker Container with Nginx Web Server</h3>
   <p align="center">
